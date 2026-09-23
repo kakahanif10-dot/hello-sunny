@@ -40,7 +40,7 @@ export function HowItWorks() {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="relative rounded-2xl border border-border bg-card/50 p-7"
             >
-              <span className="brand-gradient-text text-sm font-mono font-semibold">
+              <span className="text-sm font-mono font-semibold text-foreground">
                 Step {i + 1}
               </span>
               <h3 className="mt-3 text-xl font-medium">{s.title}</h3>

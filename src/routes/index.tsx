@@ -35,11 +35,13 @@ function HomePage() {
         <Hero />
       </div>
 
-      <Showcase />
-      <Features />
-      <HowItWorks />
-      <PricingCta />
-      <SiteFooter />
+      <div className="landing-light">
+        <Showcase />
+        <Features />
+        <HowItWorks />
+        <PricingCta />
+        <SiteFooter />
+      </div>
     </main>
   );
 }
